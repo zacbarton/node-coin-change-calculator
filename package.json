@@ -1,0 +1,26 @@
+{
+  "name": "coin-change-calculator",
+  "description": "For a given value calculate the change in coins, e.g. 23 -> [20, 2, 1].",
+  "version": "1.0.0",
+  "author": {
+    "name": "Zac Barton"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "NODE_ENV=test $(npm bin)/mocha --reporter spec"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacbarton/node-coin-change-calculator"
+  },
+  "devDependencies": {
+    "mocha": "2.3.4",
+    "chai": "3.3.0"
+  },
+  "keywords": [
+    "coin",
+    "change",
+    "calculator"
+  ]
+}
